@@ -1,0 +1,32 @@
+#spring:
+# datasource:
+#  url: jdbc:postgresql://localhost:5432/cafe_shop
+#  username: cafe_sho
+#  password: cafe_shop
+##  url: jdbc:postgresql://dpg-cvd85hhu0jms739kt6n0-a.oregon-postgres.render.com/cafeshopdb
+##  username: cafeshopdb_user
+##  password: Xg5AIQMIRR79WdRYsUVLiUI3gPoeTJZQ
+# jpa:
+#  hibernate:
+#   ddl-auto: update
+#  properties:
+#   hibernate:
+#   dialect: org.hibernate.dialect.PostgreSQLDialect
+#app:
+# basePath: D:\Program\SPRING_WITH_VUE_PJ\cafe\imgPath\
+spring:
+ datasource:
+  url: jdbc:postgresql://dpg-cvd85hhu0jms739kt6n0-a.oregon-postgres.render.com/cafeshopdb
+  username: cafeshopdb_user
+  password: Xg5AIQMIRR79WdRYsUVLiUI3gPoeTJZQ
+  driver-class-name: org.postgresql.Driver
+
+ jpa:
+  hibernate:
+   ddl-auto: update
+  properties:
+   hibernate:
+    dialect: org.hibernate.dialect.PostgreSQLDialect
+
+app:
+ basePath: D:\Program\SPRING_WITH_VUE_PJ\cafe\imgPath\
